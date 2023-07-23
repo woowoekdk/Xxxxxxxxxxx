@@ -51,49 +51,6 @@ ownerhson_id = (int(DEVLOO))
 LOGS = logging.getLogger(__name__)
 DEVS = [5159123009]
 
-
-
-
-@sython1.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await sython1(JoinChannelRequest("@ilililililililillilli"))
-    except BaseException:
-        pass
-
-
-@sython2.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await sython2(JoinChannelRequest("@ilililililililillilli"))
-    except BaseException:
-        pass
-
-
-@sython3.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await sython3(JoinChannelRequest("@ilililililililillilli"))
-    except BaseException:
-        pass
-        
-      
-@sython4.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await sython4(JoinChannelRequest("@ilililililililillilli"))
-    except BaseException:
-        pass
-                
-        
-@sython5.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await sython5(JoinChannelRequest("@ilililililililillilli"))
-    except BaseException:
-        pass
-
-
         
         
 
